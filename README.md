@@ -13,9 +13,11 @@ I Am Using Windows And Was Experiencing Some Issues Using The Python Script So W
       
       (You Have To Write Your File Path And Then Add Help At The End)
 
-After Installing Aptos Cli, Check If It Has Been Correctly Installed By Using The Command "aptos info"
+After Installing Aptos CLI, Check If It Has Been Correctly Installed By Using The Command "aptos info"
 
 Then Refer To The Attached Video To Play The Game.
+
+P.S. :-
 
 If You Are Using Google Cloud Shell Then :-
 
