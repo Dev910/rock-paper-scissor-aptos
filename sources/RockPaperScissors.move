@@ -76,14 +76,6 @@ module RockPaperScissors{
         }
     }
 
-    public entry fun restart_game(account: &signer) acquires Game {
-        let game = borrow_global_mut<Game>(signer::address_of(account));
-        game.player_move = 0;
-        game.computer_move = 0;
-        game.result = 0;
-        // Scores and ties remain unchanged
-    }
-
     public entry fun reset_game(account: &signer) acquires Game {
         let game = borrow_global_mut<Game>(signer::address_of(account));
         game.player_score = 0;
